@@ -15,7 +15,6 @@ Load PHE data and clean up column names
 ```{r}
 phe_cases <- read_csv("data/coronavirus-cases.csv") %>% clean_names()
 phe_deaths <- read_csv("data/coronavirus-deaths.csv") %>% clean_names()
-
 ```
 
 ### Daily cases
