@@ -1,4 +1,4 @@
-## "Transforming PHE COVID-19 data"
+## Transforming PHE COVID-19 data
 
 This script separates the latest COVID-19 data from [coronavirus.data.gov.uk](https://coronavirus.data.gov.uk/)
 into separate geographic regions based on `area_type`. To allow users to join these data to boundaries from [geoportal.statistics.gov.uk/](http://geoportal.statistics.gov.uk/) observations are pivoted to ensure all `area_code` values are unique.
